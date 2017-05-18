@@ -54,6 +54,7 @@
     <Compile Include="Configurations\MovieConfiguration.cs" />
     <Compile Include="Configurations\RentalConfiguration.cs" />
     <Compile Include="Configurations\StockConfiguration.cs" />
+    <Compile Include="HomeCinemaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

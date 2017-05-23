@@ -30,5 +30,10 @@ namespace MovieKart.Business
             modelBuilder.Configurations.Add(new StockConfiguration());
             modelBuilder.Configurations.Add(new RentalConfiguration());
         }
+
+        public virtual void Commit()
+        {
+            SaveChanges();
+        }
     }
 }

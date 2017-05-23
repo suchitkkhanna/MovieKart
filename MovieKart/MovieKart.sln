@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieKart.Business", "Src\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Business.Tests", "Tests\Movie.Business.Tests\Movie.Business.Tests.csproj", "{C15891F9-7E6F-414B-AF7F-5D8A64CACFB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieKart.Infrastructure", "Src\MovieKart.Infrastructure\MovieKart.Infrastructure.csproj", "{0284DA4C-ABD8-4658-A96E-D79C6617DB39}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{C15891F9-7E6F-414B-AF7F-5D8A64CACFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C15891F9-7E6F-414B-AF7F-5D8A64CACFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C15891F9-7E6F-414B-AF7F-5D8A64CACFB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0284DA4C-ABD8-4658-A96E-D79C6617DB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0284DA4C-ABD8-4658-A96E-D79C6617DB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0284DA4C-ABD8-4658-A96E-D79C6617DB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0284DA4C-ABD8-4658-A96E-D79C6617DB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +39,5 @@ Global
 		{9D4DEB68-62ED-4289-9D63-F4C15B7FB723} = {2483BCE4-44C9-4612-9716-CEE7D19F08F1}
 		{9BA63ADB-87D8-431B-A0CE-DE0FBDC855AC} = {2483BCE4-44C9-4612-9716-CEE7D19F08F1}
 		{C15891F9-7E6F-414B-AF7F-5D8A64CACFB0} = {14E57674-A04C-4092-A988-51997A2C3CC1}
-		{0284DA4C-ABD8-4658-A96E-D79C6617DB39} = {2483BCE4-44C9-4612-9716-CEE7D19F08F1}
 	EndGlobalSection
 EndGlobal
